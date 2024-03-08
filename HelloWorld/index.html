@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.min.js"></script>
+    <style>
+        .soccer {
+            padding: 40px;
+            background-color: grey;
+            border: green;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Vue</h1>
+
+    <div id="app">
+        {{name}} <br/>
+        {{upperCase}}
+      
+        <!-- <a v-bind:href="url" target="_blank">오라클자바</a>     
+        <ul>
+            <li v-for="s in soccer" :class="{soccer: s.isFav}" @click="chkFav(s)">
+                <img :src="s.pic" :alt="s.name" width="300"/>
+                <br/>
+                {{s.name}}({{s.num}})
+            </li>
+        </ul> -->
+
+        <!-- <button v-on:click="increaseAge()">나이 증가</button>
+        <button v-on:click="decreaseAge()">나이 감소</button>
+        <div @click="changeName('최')">이름변경</div>
+        <br/>
+        <button @click="toggleShowAge()">
+            <span v-if="showAge">나이 감추기</span>
+            <span v-else>나이 감추기</span>
+        </button> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
